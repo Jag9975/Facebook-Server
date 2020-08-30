@@ -67,6 +67,6 @@ post/JSON_Post.o:		post/JSON_Post.cpp $(CORE_INCS)
 	$(CC) -c $(CFLAGPOST) post/JSON_Post.cpp -o post/JSON_Post.o
 
 clean:
-	rm -f post/*.o search/*.o update/*.o server/*.o *~ core searchfbsearch server/fbserver update/fbupdate fbserver.h fbclient.h
+	rm -f post/*.o search/*.o update/*.o server/*.o *~ core search/fbsearch server/fbserver update/fbupdate fbserver.h fbclient.h
 
 
